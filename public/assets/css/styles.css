@@ -10,6 +10,11 @@
 
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+body{
+
+    background: rgb(240,0,141);
+    background: linear-gradient(150deg, rgba(240,0,141,1) 1%, rgba(252,242,2,1) 50%, rgba(1,174,243,1) 100%) no-repeat fixed;
+}
 .card-header{
 
     background-color: var(--color-negro);
@@ -28,5 +33,5 @@
 }
 .bg-login-btn:hover{
 
-    background-color: #261E21;
+    background-color: var(--color-negro);
 }
